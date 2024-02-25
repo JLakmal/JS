@@ -1,0 +1,12 @@
+#topic {
+  font-size: 45px;
+}
+#passwordInput,
+#nameInput {
+  /* font-size: 20px; */
+  padding: auto;
+}
+#Name,
+#Password {
+  font-size: 20px;
+}

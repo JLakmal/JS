@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="topic">Form validation</h1>
+    <form action="" id="form">
+      <table>
+        <tbody>
+          <tr>
+            <td id="Name">Name</td>
+            <td id="nameInput"><input type="text" name="name" id="name" required /><br /></td>
+          </tr>
+          <tr>
+            <td id="Password">Password</td>
+            <td id="passwordInput">
+              <input type="password" name="password" id="password" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit">submit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <!-- <div id="">
+      <label for="">Name</label>
+      <input type="text" name="name" id="name" required /><br />
+      <label for="">Password</label>
+      <input type="password" name="password" id="password" required />
+      <button type="submit">submit</button>
+    </div>
+    <div> -->
+      <p id="error"></p>
+    </div>
+  </body>
+</html>
